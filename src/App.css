@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(216, 196, 196);
 }
 
 .App-link {
@@ -35,4 +35,140 @@
   to {
     transform: rotate(360deg);
   }
+}
+.explore:hover {
+  background-color: black !important;
+}
+.tagUser {
+  color: blue;
+  text-decoration: underline;
+}
+.modal-notice:hover {
+  background-color: #d1d1d1 !important;
+}
+.suggestion-user:hover {
+  background-color: #d1d1d1 !important;
+}
+.suggestion-user {
+  min-width: 250px;
+}
+.commenttextarea__control {
+  padding: 15px !important;
+}
+.commenttextarea__control > textarea {
+  padding: 15px !important;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+}
+#content {
+  padding-top: 1px;
+
+  background: white;
+}
+.readmorebtn {
+  background-color: #43679c !important;
+  border: #43679c !important;
+}
+.readmorebtn:hover {
+  opacity: 0.6;
+}
+.btnBlock {
+  cursor: pointer;
+  background-color: white;
+}
+.btnBlock:hover {
+  background-color: #d1d1d1 !important;
+}
+.author {
+  cursor: pointer;
+}
+.boxDatabase {
+  width: 30%;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  color: black;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+.toplists {
+  position: absolute;
+  z-index: 3;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 120px;
+  font-size: 30px;
+  left: 120px;
+  font-family: "sora";
+  font-weight: 900;
+  color: black;
+  background-color: white !important;
+}
+.top2 {
+  margin-top: 35px;
+  position: relative;
+}
+.top3 {
+  margin-top: 70px;
+  position: relative;
+}
+.recharts-legend-item {
+  position: absolute;
+}
+.icondatabase {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px !important;
+  margin-right: 20px;
+}
+.contentdatabase {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.checkSeen {
+  background-color: #0d6efd !important;
+  border: 1px solid #0d6efd !important;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+textarea {
+}
+.right-mess {
+  display: flex;
+  justify-content: end;
+}
+.right-mess > div {
+  max-width: 70%;
+  background-color: #9090f2;
+  padding: 10px;
+  border-radius: 20px;
+
+  margin: 5px 0;
+  width: fit-content;
+}
+.left-mess {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  text-align: start;
+  margin: 5px 0;
+  max-width: 70%;
+  width: fit-content;
 }
