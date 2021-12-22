@@ -89,7 +89,7 @@ export default function HomeScreen() {
           </div>
         </Container>
       </div>
-      {/* <ListUsers /> */}
+      <ListUsers />
       <FooterScreen />
     </div>
   );

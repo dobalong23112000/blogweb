@@ -1,5 +1,5 @@
 import React from "react";
-import PieChartDatabase from "./PieChartDatabase";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPenFancy,

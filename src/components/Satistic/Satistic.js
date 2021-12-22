@@ -10,6 +10,7 @@ import PieChartDatabase from "./PieChartDatabase";
 import { collection, onSnapshot } from "firebase/firestore";
 import { db } from "../../firebase/firebase";
 import { Spinner } from "react-bootstrap";
+import ListUsers from "../BoxChat/ListUsers";
 export default function Satistic() {
   const [total, setToltal] = useState({
     posts: 0,

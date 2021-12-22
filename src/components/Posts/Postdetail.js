@@ -9,6 +9,7 @@ import { useNavigate } from "react-router";
 import FooterScreen from "../FooterScreen";
 import NavbarScreen from "../NavbarScreen";
 import CommentScreen from "./CommentScreen";
+import ListUsers from "../BoxChat/ListUsers";
 
 export default function Postdetail() {
   const { state } = useLocation();
@@ -117,6 +118,7 @@ export default function Postdetail() {
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       )}
+      <ListUsers />
     </div>
   );
 }

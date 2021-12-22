@@ -81,9 +81,9 @@ export default function CommentScreen({ info }) {
                 const washingtonRef = doc(db, "users", `${user.id}`);
                 await updateDoc(washingtonRef, {
                   tagged: arrayUnion({
-                    usertagged: displayName,
+                    username: displayName,
                     creAt: datetime,
-                    seen: false,
+                    checkSeen: false,
                     idpost: idpost,
                     namepost,
                     views,

@@ -39,7 +39,7 @@ export default function PieChartDatabase({ getallposts }) {
       value: parseInt(percents.healthtopic),
     },
   ];
-  console.log(percents);
+
   return (
     <div className="d-flex flex-column">
       <VictoryPie

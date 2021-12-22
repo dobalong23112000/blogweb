@@ -1,4 +1,4 @@
-import { faCog, faEllipsisH } from "@fortawesome/free-solid-svg-icons";
+import { faCog } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   arrayUnion,
